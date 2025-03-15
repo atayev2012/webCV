@@ -12,6 +12,7 @@
         background-color: var(--base0);
         height: 6vh;
         justify-content: center;
+        z-index: 1;
     }
 
     li{
