@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    header{
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .desktop_nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--base0);
+        height: 6vh;
+        justify-content: center;
+    }
+
+    li{
+        align-self: center;
+    }
+
+    .switch{
+        align-self: center;
+    }
+
+    #about{
+        margin-bottom: 12vh;
+    }
+
+    #profile{
+        flex-direction: column;
+        gap: 2rem;
+        height: 70vh;
+
+    }
+
+    .image_container{
+        margin: 0 auto;
+    }
+}

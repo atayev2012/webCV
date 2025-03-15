@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport=" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/style_mobile.css" rel="stylesheet" />
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Batyr Atayev</div>
+        <nav class="desktop_nav">
+            <ul class="desktop_nav_links">
+                <li>
+                    <a href="#profile">Curriculum Vitae</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+            <div class="dark-mode">
+                <span class="dm_mode_text">Dark Mode</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="image_container">
+                <img src="/assets/profile_image.webp" alt="Batyr Atayev profile photo">
+            </div>
+            <div class="text_container">
+                <p class="text_container_p1">Hello, I'm</p>
+                <h1 class="title">Batyr Atayev</h1>
+                <p class="text_container_p2">Backend Developer</p>
+                <div class="btn_container">
+                    <button class="btn btn_color_1" onclick="window.open('#')">
+                        Download CV
+                    </button>
+                    <button class="btn btn_color_2" onclick="location.href='./#about'">
+                        About Me
+                    </button>
+                </div>
+                <div class="socials_container">
+                    <img id="githubImage" src="assets/github_black.svg" alt="My Github profile" class="icon" onclick="location.href='https://github.com/atayev2012'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="top_container">
+                <p>Get To Know More</p>
+                <h1 class="title">About Me</h1>
+            </div>
+            <div class="bottom_container">
+                <div id="image2" class="image_container">
+                    <img style="filter: grayscale(100%);" src="/assets/profile_image_2.webp" alt="Batyr Atayev profile photo">
+                </div>
+                <div class="info_container">
+                    <div class="boxes">
+                        <div class="box_detail">
+                            <h1>Experience</h1>
+                            <p>1+ years</p>
+                            <p>Backend Development</p>
+                        </div>
+                        <div class="box_detail">
+                            <h1>Education</h1>
+                            <p>Higher School of Economics</p>
+                            <p>Bachelor in Software Engineering</p>
+                        </div>
+                    </div>
+                    <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam autem dignissimos eius fuga hic laborum laudantium, minus modi mollitia nostrum odio, perspiciatis quas sed vitae! Doloremque eaque facilis nesciunt.</article>
+                </div>
+            </div>
+        </section>
+<!--&lt;!&ndash;        <section id="experience"></section>&ndash;&gt;-->
+<!--&lt;!&ndash;        <section id="projects"></section>&ndash;&gt;-->
+<!--&lt;!&ndash;        <section id="contact"></section>&ndash;&gt;-->
+<!--    </main>-->
+<!--    <footer></footer>-->
+</body>
+</html>
