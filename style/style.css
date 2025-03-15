@@ -9,6 +9,10 @@
     --green1: #dcfce7;
     --green3: #22c55e;
     --green6: #052e16;
+
+    --dark_blue: #015d87;
+    --light_blue: #a7e0fa;
+
 }
 
 .dark-mode-colors {
@@ -17,6 +21,8 @@
     --base2: #dcfce7;
     --green6: #ffffff;
     --green1: #15803d;
+    --light_blue: #0171a8;
+    --dark_blue: #e7f7ff;
 }
 
 *{
@@ -333,4 +339,23 @@ input:checked + .slider:before {
 #image2{
     border-radius: 2rem;
     overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+
+    .dark-mode-colors {
+        --green3: #0171a8;
+
+    }
+
+    body, a{
+        color: var(--dark_blue);
+    }
+
+    .btn_color_2{
+        background-color: var(--light_blue);
+    }
+
+
+
 }
